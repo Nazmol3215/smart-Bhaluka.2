@@ -9,7 +9,6 @@ import OffcanvasExample from '../Layout/OffcanvasExample';
 export default function Ambulance_1() {
   return (
     <div>
-      jdfgb ujbgvfdcx judf juhnxsvg jskfdvh 
         <OffcanvasExample />
         <Ambulance />
       <Footer />

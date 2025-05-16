@@ -6,7 +6,7 @@ const TeacherList = () => {
   const [teachers, setTeachers] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/teachers").then(res => setTeachers(res.data));
+    axios.get("https://bdback-5ofz.onrender.com/api/teachers").then(res => setTeachers(res.data));
   }, []);
 
   const containerStyle = {

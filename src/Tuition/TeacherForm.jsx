@@ -34,7 +34,7 @@ const TeacherForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/api/teachers", form);
+    await axios.post("https://bdback-5ofz.onrender.com/api/teachers", form);
     alert("✅ Submitted successfully!");
   };
 
