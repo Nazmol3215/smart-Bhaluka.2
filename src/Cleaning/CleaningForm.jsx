@@ -47,7 +47,7 @@ const CleaningForm = () => {
 
   const handleSubmit = async e => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/api/profiles", data);
+    await axios.post("https://bdback-5ofz.onrender.com/api/profiles", data);
     setSuccess(true);
     setTimeout(() => setSuccess(false), 3000);
     setData({ imageLink: '', imageName: '', phone: '', profession: '', address: '' });

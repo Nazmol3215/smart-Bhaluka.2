@@ -16,7 +16,7 @@ export default function HotelForm() {
       alert("⚠️লক্ষ্য করে সকল ঘর পূরণ করুন!");
       return;
     }
-    await axios.post('http://localhost:5000/hotel/add', formData);
+    await axios.post('https://bdback-5ofz.onrender.com/hotel/add', formData);
     setSubmitted(true);
     setFormData({ imageLink: '', imageName: '', phone: '', address: '' });
     setTimeout(() => setSubmitted(false), 3000);

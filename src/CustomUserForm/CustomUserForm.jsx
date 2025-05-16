@@ -47,7 +47,7 @@ const CustomUserForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:5000/api/custom-users", {
+    const res = await fetch("https://bdback-5ofz.onrender.com/api/custom-users", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),

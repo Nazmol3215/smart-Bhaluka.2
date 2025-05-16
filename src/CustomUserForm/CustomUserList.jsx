@@ -5,7 +5,7 @@ const CustomUserList = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/custom-users")
+    fetch("https://bdback-5ofz.onrender.com/api/custom-users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);

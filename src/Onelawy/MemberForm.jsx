@@ -10,7 +10,7 @@ const MemberForm = () => {
 
   const submitData = async (e) => {
     e.preventDefault();
-    await axios.post('http://localhost:5000/api/members/add', form);
+    await axios.post('https://bdback-5ofz.onrender.com/api/members/add', form);
 
     alert('সফলভাবে জমা হয়েছে!');
     setForm({ image: '', imageName: '', phone: '', designation: '' });

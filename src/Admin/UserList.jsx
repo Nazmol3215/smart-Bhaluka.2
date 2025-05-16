@@ -143,7 +143,7 @@ const UserList = () => {
 
   useEffect(() => {
     // API থেকে ডেটা আনা এবং স্ট্যাটিক ডেটার সাথে যুক্ত করা
-    axios.get("http://localhost:5000/api/users")
+    axios.get("https://bdback-5ofz.onrender.com/api/users")
       .then(res => {
         const apiProfiles = res.data.map(user => ({
           name: user.name,

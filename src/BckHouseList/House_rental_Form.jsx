@@ -58,7 +58,7 @@ const House_rental_Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/api/houses", formData);
+    await axios.post("https://bdback-5ofz.onrender.com/api/houses", formData);
     alert('✅ তথ্য জমা হয়েছে!\n📋 প্রফাইলটি এখন সাইটে দেখা যাবে।');
   };
 

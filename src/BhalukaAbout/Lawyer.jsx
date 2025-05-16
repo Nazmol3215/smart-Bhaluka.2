@@ -92,7 +92,7 @@ const MemberList = () => {
   useEffect(() => {
     const fetchProfiles = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/members/all');
+        const res = await axios.get('https://bdback-5ofz.onrender.com/api/members/all');
         const formatted = res.data.map(member => ({
           name: member.imageName,
           mobile: member.phone,

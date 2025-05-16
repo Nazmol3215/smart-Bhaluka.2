@@ -138,7 +138,7 @@ export default function BankList() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:5000/bank/all')
+    axios.get('https://bdback-5ofz.onrender.com/bank/all')
       .then(res => {
         const allData = [...manualProfiles, ...res.data];
         setData(allData);

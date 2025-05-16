@@ -96,7 +96,7 @@ const Tesxt = () => {
   useEffect(() => { 
     const fetchUsers = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/custom-users');
+        const res = await axios.get('https://bdback-5ofz.onrender.com/api/custom-users');
         const mongoUsers = res.data.map(user => ({
           name: user.imageName,
           phone: user.phone,

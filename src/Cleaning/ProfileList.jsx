@@ -74,7 +74,7 @@ const ProfileList = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/profiles');
+        const res = await axios.get('https://bdback-5ofz.onrender.com/api/profiles');
         const mongoProfiles = res.data.map(profile => ({
           name: profile.imageName,
           phone: profile.phone,
