@@ -46,7 +46,7 @@ import ProfileList from "./Cleaning/ProfileList";
 // import Cleaning_staff_1 from "./BhalukaAbout/cleaning_staff_1";
 // import AdminDashboard from "./Admin/AdminDashboard";
 import CleaningForm from "./Cleaning/CleaningForm";
-import Police_1 from "./BhalukaAbout/Police_1";
+// import Police_1 from "./BhalukaAbout/Police_1";
 // import ProfileCardGrid from "./BhalukaAbout/police";
 import DonorForm from "./Tim/DonorForm";
 import DonorList from "./Tim/DonorList";
@@ -121,7 +121,7 @@ export default function Router() {
       <Route path="/ProfileList" element={<ProfileList />} />
       {/* <Route path="/Cleaning_staff_1" element={<Cleaning_staff_1 />} /> */}
       <Route path="/CleaningForm" element={<CleaningForm />} />
-      <Route path="/Police_1" element={<Police_1 />} />
+      {/* <Route path="/Police_1" element={<Police_1 />} /> */}
       {/* <Route path="/ProfileCardGrid" element={<ProfileCardGrid />} /> */}
       <Route path="/DonorForm" element={<DonorForm />} />
       <Route path="/DonorList" element={<DonorList />} />
