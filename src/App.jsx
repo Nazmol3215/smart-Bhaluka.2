@@ -43,7 +43,7 @@ import CustomUserForm from "./CustomUserForm/CustomUserForm";
 import MemberForm from "./Onelawy/MemberForm";  
 import MemberList from "./Onelawy/MemberList";
 import ProfileList from "./Cleaning/ProfileList";
-import Cleaning_staff_1 from "./BhalukaAbout/cleaning_staff_1";
+// import Cleaning_staff_1 from "./BhalukaAbout/cleaning_staff_1";
 // import AdminDashboard from "./Admin/AdminDashboard";
 import CleaningForm from "./Cleaning/CleaningForm";
 import Police_1 from "./BhalukaAbout/Police_1";
@@ -119,7 +119,7 @@ export default function Router() {
       <Route path="/MemberForm" element={<MemberForm />} />
       <Route path="/MemberList" element={<MemberList />} />
       <Route path="/ProfileList" element={<ProfileList />} />
-      <Route path="/Cleaning_staff_1" element={<Cleaning_staff_1 />} />
+      {/* <Route path="/Cleaning_staff_1" element={<Cleaning_staff_1 />} /> */}
       <Route path="/CleaningForm" element={<CleaningForm />} />
       <Route path="/Police_1" element={<Police_1 />} />
       {/* <Route path="/ProfileCardGrid" element={<ProfileCardGrid />} /> */}

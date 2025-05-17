@@ -58,8 +58,8 @@ export default function HotelForm() {
   };
 
   const formContainerStyle = {
-    maxWidth: '400px',
-    margin: '60px auto',
+    maxWidth: '410px',
+    margin: '63px auto',
     padding: '30px',
     borderRadius: '20px',
     background: 'rgba(255, 255, 255, 0.1)',
